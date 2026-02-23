@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    max-width: 1281px;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.h-botton {
+    border: none;
+    background-color: transparent;
+    color: #484848;
+    transition: 400ms;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 54px;
+}
+
+.h-botton:hover {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    transition: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.249) 0 7px 10px 1px;
+    cursor: pointer;
+}
+
+.hero-section {
+    width: 100%;
+    max-width: 1281px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+
+}
+
+.pic {
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    width: 392px;
+    height: 765.18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.man-in-orange {
+    position: absolute;
+    top: 197px;
+    right: 89px;
+}
+
+.man-inbrown {
+    position: absolute;
+    top: 197px;
+    right: 2px;
+}
+
+.women-group {
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    padding: 5px 13px 0 13px;
+}
+
+.sale {
+    width: 399px;
+    margin: 36.5px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.COLLECTION-title {
+    color: #484848;
+    font-size: 20px;
+    margin: 0 6.5rem;
+
+}
+
+.shop-now {
+    color: white;
+    background-color: black;
+    padding: 21px 25px;
+    border-radius: 10px;
+    width: 207px;
+}
+
+.shop-now:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.249) 0 7px 10px 1px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.logo-container::-webkit-scrollbar {
+    display: none;
+}
+
+.logo-container {
+    width: 1230px;
+    padding: 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    overflow-x: auto;
+    margin: 6rem auto;
+}
+
+
+
+
+.logos {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.scroll {
+    display: flex;
+    gap: 4rem;
+    animation: scroll-ani 10s infinite linear;
+}
+
+@keyframes scroll-ani {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.monthly-container {
+    width: 100%;
+    max-width: 1924px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}
+
+.deals-of {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buy-now {
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
